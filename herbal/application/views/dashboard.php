@@ -1,82 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Home</title>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-<!--===============================================================================================-->  
-  <link rel="icon" type="image/png" href="assets/images/icons/favicon.png"/>
-<!--===============================================================================================-->
-  <link rel="stylesheet" type="text/css" href="assets/vendor/bootstrap/css/bootstrap.min.css">
-<!--===============================================================================================-->
-  <link rel="stylesheet" type="text/css" href="assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
-<!--===============================================================================================-->
-  <link rel="stylesheet" type="text/css" href="assets/fonts/iconic/css/material-design-iconic-font.min.css">
-<!--===============================================================================================-->
-  <link rel="stylesheet" type="text/css" href="assets/fonts/linearicons-v1.0.0/icon-font.min.css">
-<!--===============================================================================================-->
-  <link rel="stylesheet" type="text/css" href="assets/vendor/animate/animate.css">
-<!--===============================================================================================-->  
-  <link rel="stylesheet" type="text/css" href="assets/vendor/css-hamburgers/hamburgers.min.css">
-<!--===============================================================================================-->
-  <link rel="stylesheet" type="text/css" href="assets/vendor/animsition/css/animsition.min.css">
-<!--===============================================================================================-->
-  <link rel="stylesheet" type="text/css" href="assets/vendor/select2/select2.min.css">
-<!--===============================================================================================-->  
-  <link rel="stylesheet" type="text/css" href="assets/vendor/daterangepicker/daterangepicker.css">
-<!--===============================================================================================-->
-  <link rel="stylesheet" type="text/css" href="assets/vendor/slick/slick.css">
-<!--===============================================================================================-->
-  <link rel="stylesheet" type="text/css" href="assets/vendor/MagnificPopup/magnific-popup.css">
-<!--===============================================================================================-->
-  <link rel="stylesheet" type="text/css" href="assets/vendor/perfect-scrollbar/perfect-scrollbar.css">
-<!--===============================================================================================-->
-  <link rel="stylesheet" type="text/css" href="assets/css/util.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/main.css">
-<!--===============================================================================================-->
+  <?php $this->load->view('home/meta') ?>
 </head>
 <body class="animsition">
-  
-  <!-- Header -->
   <header>
-    <!-- Header desktop -->
     <div class="container-menu-desktop">
-      <!-- Topbar -->
-      <div class="top-bar">
-        <div class="content-topbar flex-sb-m h-full container">
-          <div class="left-top-bar">
-            Free shipping for standard order over $100
-          </div>
-
-          <div class="right-top-bar flex-w h-full">
-            <a href="#" class="flex-c-m trans-04 p-lr-25">
-              Help & FAQs
-            </a>
-
-            <a href="#" class="flex-c-m trans-04 p-lr-25">
-              My Account
-            </a>
-
-            <a href="#" class="flex-c-m trans-04 p-lr-25">
-              EN
-            </a>
-
-            <a href="#" class="flex-c-m trans-04 p-lr-25">
-              USD
-            </a>
-          </div>
-        </div>
-      </div>
-
       <div class="wrap-menu-desktop">
         <nav class="limiter-menu-desktop container">
-          
-          <!-- Logo desktop -->   
           <a href="#" class="logo">
             <img src="assets/images/icons/logo-01.png" alt="IMG-LOGO">
           </a>
-
-          <!-- Menu desktop -->
           <div class="menu-desktop">
             <ul class="main-menu">
               <li class="active-menu">
@@ -90,10 +24,6 @@
 
               <li>
                 <a href="product.html">Shop</a>
-              </li>
-
-              <li class="label1" data-label1="hot">
-                <a href="shoping-cart.html">Features</a>
               </li>
 
               <li>
@@ -161,34 +91,7 @@
 
     <!-- Menu Mobile -->
     <div class="menu-mobile">
-      <ul class="topbar-mobile">
-        <li>
-          <div class="left-top-bar">
-            Free shipping for standard order over $100
-          </div>
-        </li>
-
-        <li>
-          <div class="right-top-bar flex-w h-full">
-            <a href="#" class="flex-c-m p-lr-10 trans-04">
-              Help & FAQs
-            </a>
-
-            <a href="#" class="flex-c-m p-lr-10 trans-04">
-              My Account
-            </a>
-
-            <a href="#" class="flex-c-m p-lr-10 trans-04">
-              EN
-            </a>
-
-            <a href="#" class="flex-c-m p-lr-10 trans-04">
-              USD
-            </a>
-          </div>
-        </li>
-      </ul>
-
+      
       <ul class="main-menu-m">
         <li>
           <a href="index.html">Home</a>
@@ -204,10 +107,6 @@
 
         <li>
           <a href="product.html">Shop</a>
-        </li>
-
-        <li>
-          <a href="shoping-cart.html" class="label1 rs1" data-label1="hot">Features</a>
         </li>
 
         <li>
@@ -410,84 +309,7 @@
 
   <!-- Banner -->
   <div class="sec-banner bg0 p-t-80 p-b-50">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6 col-xl-4 p-b-30 m-lr-auto">
-          <!-- Block1 -->
-          <div class="block1 wrap-pic-w">
-            <img src="assets/images/banner-01.jpg" alt="IMG-BANNER">
-
-            <a href="product.html" class="block1-txt ab-t-l s-full flex-col-l-sb p-lr-38 p-tb-34 trans-03 respon3">
-              <div class="block1-txt-child1 flex-col-l">
-                <span class="block1-name ltext-102 trans-04 p-b-8">
-                  Women
-                </span>
-
-                <span class="block1-info stext-102 trans-04">
-                  Spring 2018
-                </span>
-              </div>
-
-              <div class="block1-txt-child2 p-b-4 trans-05">
-                <div class="block1-link stext-101 cl0 trans-09">
-                  Shop Now
-                </div>
-              </div>
-            </a>
-          </div>
-        </div>
-
-        <div class="col-md-6 col-xl-4 p-b-30 m-lr-auto">
-          <!-- Block1 -->
-          <div class="block1 wrap-pic-w">
-            <img src="assets/images/banner-02.jpg" alt="IMG-BANNER">
-
-            <a href="product.html" class="block1-txt ab-t-l s-full flex-col-l-sb p-lr-38 p-tb-34 trans-03 respon3">
-              <div class="block1-txt-child1 flex-col-l">
-                <span class="block1-name ltext-102 trans-04 p-b-8">
-                  Men
-                </span>
-
-                <span class="block1-info stext-102 trans-04">
-                  Spring 2018
-                </span>
-              </div>
-
-              <div class="block1-txt-child2 p-b-4 trans-05">
-                <div class="block1-link stext-101 cl0 trans-09">
-                  Shop Now
-                </div>
-              </div>
-            </a>
-          </div>
-        </div>
-
-        <div class="col-md-6 col-xl-4 p-b-30 m-lr-auto">
-          <!-- Block1 -->
-          <div class="block1 wrap-pic-w">
-            <img src="assets/images/banner-03.jpg" alt="IMG-BANNER">
-
-            <a href="product.html" class="block1-txt ab-t-l s-full flex-col-l-sb p-lr-38 p-tb-34 trans-03 respon3">
-              <div class="block1-txt-child1 flex-col-l">
-                <span class="block1-name ltext-102 trans-04 p-b-8">
-                  Accessories
-                </span>
-
-                <span class="block1-info stext-102 trans-04">
-                  New Trend
-                </span>
-              </div>
-
-              <div class="block1-txt-child2 p-b-4 trans-05">
-                <div class="block1-link stext-101 cl0 trans-09">
-                  Shop Now
-                </div>
-              </div>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
+   <?php $this->load->view('home/product_top',array('data'=>$data,'barang'=>$barang)) ?>
   </div>
 
 
